@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import FilterButtons from "../Elements/FilterButtons";
 import SkillsSection from "../Elements/SkillsSection";
+import ProjectSection from "../Elements/ProjectSection";
 
 const MainSection = () => {
   const [filter, setFilter] = useState("Skills");
@@ -11,7 +12,7 @@ const MainSection = () => {
         <FilterButtons onClick={setFilter} filter={filter} />
         <div className="container mt-2 flex flex-wrap justify-center">
           {filter === "Skills" && <SkillsSection />}
-          {filter === "Projects" && ""}
+          {filter === "Projects" && <ProjectSection />}
         </div>
       </main>
     </>
