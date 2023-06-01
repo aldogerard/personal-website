@@ -14,7 +14,7 @@ const HeaderSection = () => {
           <img src={user} alt="my-picture" className="object-contain" />
         </div>
         <h1 className="text-xl font-bold dark:text-light md:text-2xl">Reynaldo Gerard</h1>
-        <h2 className="text-sm text-gray-700 dark:text-gray-300 md:text-base">Frontend Developer</h2>
+        <h2 className="text-sm text-gray-700 dark:text-gray-300 md:text-base">Web Developer</h2>
         <IconSocialMedia />
         <ProfileInfo />
       </header>
