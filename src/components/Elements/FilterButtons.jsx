@@ -7,7 +7,7 @@ const FilterButtons = ({ onClick, filter }) => {
         <button className={`btn ${filter === "Projects" ? "bg-light dark:bg-dark" : ""}`} onClick={() => onClick("Projects")}>
           Projects
         </button>
-        <button className={`btn ${filter === "Skills" ? "bg-light dark:bg-dark" : ""}`} onClick={() => onClick("Skills")}>
+        <button className={`btn  ${filter === "Skills" ? "bg-light dark:bg-dark" : ""}`} onClick={() => onClick("Skills")}>
           Skills
         </button>
       </div>

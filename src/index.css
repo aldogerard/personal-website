@@ -22,5 +22,5 @@ body {
 }
 
 .btn {
-  @apply rounded-lg px-14 py-4 text-sm font-medium text-gray-700 transition-colors duration-100 hover:bg-light dark:bg-gray-800 dark:text-light dark:hover:bg-dark md:px-16 md:text-base;
+  @apply w-36 rounded-lg  py-4  text-sm font-medium text-gray-700 transition-colors duration-100 hover:bg-light dark:bg-gray-800 dark:text-light dark:hover:bg-dark md:w-44 md:text-base;
 }
