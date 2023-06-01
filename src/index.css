@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Figtree", sans-serif;
+  @apply transition-colors duration-500;
+}
+
+.container {
+  @apply mx-auto p-6 pb-0 md:max-w-3xl md:px-8;
+}
+
+.icon {
+  @apply cursor-pointer text-lg transition-colors duration-75 hover:text-amber-300 dark:text-light dark:hover:text-amber-300 md:text-xl;
+}
+
+.btn {
+  @apply rounded-lg px-14 py-4 text-sm font-medium text-gray-700 transition-colors duration-100 hover:bg-light dark:bg-gray-800 dark:text-light dark:hover:bg-dark md:px-16 md:text-base;
+}
