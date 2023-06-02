@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  @apply mx-auto p-6 pb-0 md:max-w-3xl md:px-8;
+  @apply mx-auto px-4 py-6 pb-0 md:max-w-3xl md:px-8;
 }
 
 .icon {
@@ -23,4 +23,12 @@ body {
 
 .btn {
   @apply w-36 rounded-lg  py-4  text-sm font-medium text-gray-700 transition-colors duration-100 hover:bg-light dark:bg-gray-800 dark:text-light dark:hover:bg-dark md:w-44 md:text-base;
+}
+
+.projects-card {
+  @apply relative flex h-[264px] w-full max-w-sm cursor-pointer flex-col overflow-hidden  rounded-md border bg-light shadow-sm dark:border-gray-700 dark:bg-dark md:h-64 md:w-[47%];
+}
+
+.projects-card-desc {
+  @apply absolute bottom-0 flex h-[100%] w-full translate-y-16 flex-col justify-end bg-gradient-to-t from-light via-[#ffffffd3] p-4 transition-transform duration-300 group-hover:translate-y-0 dark:from-dark dark:via-dark;
 }

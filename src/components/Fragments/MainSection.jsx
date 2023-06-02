@@ -4,7 +4,7 @@ import SkillsSection from "../Elements/SkillsSection";
 import ProjectSection from "../Elements/ProjectSection";
 
 const MainSection = () => {
-  const [filter, setFilter] = useState("Skills");
+  const [filter, setFilter] = useState("Projects");
 
   return (
     <>

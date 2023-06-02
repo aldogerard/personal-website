@@ -50,10 +50,10 @@ const backEnd = [
 const SkillsSection = () => {
   return (
     <>
-      <div className="flex w-full flex-wrap justify-between gap-y-12 transition-colors duration-100">
+      <div className="flex w-full flex-wrap justify-between gap-y-12 px-4 transition-colors duration-100 md:px-0">
         <div className="w-full max-w-xs md:w-2/5">
           <h1 className="mb-6 text-center text-lg font-semibold dark:text-light ">Frontend Developer</h1>
-          <div className="flex w-full ">
+          <div className="flex w-full">
             <div className="flex w-1/2 flex-col items-start justify-start gap-y-6">
               {frontEnd.map((item, index) => {
                 if (index < frontEnd.length / 2)
