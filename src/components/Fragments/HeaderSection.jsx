@@ -3,7 +3,7 @@ import React from "react";
 import ThemeMode from "../Elements/ThemeMode";
 import IconSocialMedia from "../Elements/IconSocialMedia";
 
-import user from "../../../public/images/man.png";
+import user from "/images/man.png";
 import ProfileInfo from "../Elements/ProfileInfo";
 const HeaderSection = () => {
   return (

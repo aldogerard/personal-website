@@ -4,7 +4,7 @@ const projects = [
   {
     nama: "Reyna Movies",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, voluptates.",
-    img: "../../../public/images/projects/project-1.png",
+    img: "/images/projects/project-1.png",
     link: "https://reynamovie.vercel.app/",
     platfrom: {
       nama: "Web",
@@ -18,7 +18,7 @@ const projects = [
   {
     nama: "Tirta",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, voluptates.",
-    img: "../../../public/images/projects/project-3.png",
+    img: "/images/projects/project-3.png",
     link: "https://aldogerard.github.io/pemrogram-web-uts",
     platfrom: {
       nama: "Web",
@@ -32,7 +32,7 @@ const projects = [
   {
     nama: "To Do List",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, voluptates.",
-    img: "../../../public/images/projects/project-2.png",
+    img: "/images/projects/project-2.png",
     link: "https://reyna-todolist.vercel.app/",
     platfrom: {
       nama: "Web",

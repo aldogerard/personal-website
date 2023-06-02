@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 
 const ThemeMode = () => {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
 
   const handleMode = () => {
     if (theme === "light") {
