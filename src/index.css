@@ -18,14 +18,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  @apply rounded-lg bg-gray-800;
+  @apply rounded-lg bg-gray-500;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply rounded-lg bg-gray-600;
+  @apply rounded-lg bg-gray-400;
 }
 ::-webkit-scrollbar-thumb:hover {
-  @apply rounded-lg bg-gray-500;
+  @apply rounded-lg bg-gray-300;
 }
 
 .container {
