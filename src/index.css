@@ -13,6 +13,21 @@ body {
   @apply bg-light selection:bg-primary dark:bg-dark;
 }
 
+::-webkit-scrollbar {
+  @apply w-[10px];
+}
+
+::-webkit-scrollbar-track {
+  @apply rounded-lg bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-lg bg-gray-600;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply rounded-lg bg-gray-500;
+}
+
 .container {
   @apply mx-auto px-4 py-6 pb-0 md:max-w-3xl md:px-8;
 }
