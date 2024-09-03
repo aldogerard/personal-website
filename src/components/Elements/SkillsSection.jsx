@@ -42,8 +42,16 @@ const backEnd = [
     level: "Basic",
   },
   {
+    name: "PostgreSQL",
+    level: "Basic",
+  },
+  {
     name: "ExpressJs",
     level: "Basic",
+  },
+  {
+    name: "Java",
+    level: "Intermediate",
   },
 ];
 
@@ -52,7 +60,9 @@ const SkillsSection = () => {
     <>
       <div className="flex w-full flex-wrap justify-between gap-y-12 px-4 transition-colors duration-100 md:px-0">
         <div className="w-full max-w-xs md:w-2/5">
-          <h1 className="mb-6 text-center text-lg font-semibold dark:text-light ">Frontend Developer</h1>
+          <h1 className="mb-6 text-center text-lg font-semibold dark:text-light ">
+            Frontend Developer
+          </h1>
           <div className="flex w-full">
             <div className="flex w-1/2 flex-col items-start justify-start gap-y-6">
               {frontEnd.map((item, index) => {
@@ -61,8 +71,12 @@ const SkillsSection = () => {
                     <div className="flex items-start justify-start" key={index}>
                       <IoCheckmarkCircleOutline className="mx-[6px] text-base text-primary" />
                       <div className="flex h-full flex-col justify-items-start">
-                        <h1 className="text-base leading-4 dark:text-light">{item.name}</h1>
-                        <h1 className="mt-1 text-sm font-light text-gray-700 dark:text-gray-300">{item.level}</h1>
+                        <h1 className="text-base leading-4 dark:text-light">
+                          {item.name}
+                        </h1>
+                        <h1 className="mt-1 text-sm font-light text-gray-700 dark:text-gray-300">
+                          {item.level}
+                        </h1>
                       </div>
                     </div>
                   );
@@ -75,8 +89,12 @@ const SkillsSection = () => {
                     <div className="flex items-start justify-start" key={index}>
                       <IoCheckmarkCircleOutline className="mx-[6px] text-base text-primary" />
                       <div className="flex h-full flex-col justify-items-start">
-                        <h1 className="text-base leading-4 dark:text-light">{item.name}</h1>
-                        <h1 className="mt-1 text-sm font-light text-gray-700 dark:text-gray-300">{item.level}</h1>
+                        <h1 className="text-base leading-4 dark:text-light">
+                          {item.name}
+                        </h1>
+                        <h1 className="mt-1 text-sm font-light text-gray-700 dark:text-gray-300">
+                          {item.level}
+                        </h1>
                       </div>
                     </div>
                   );
@@ -86,7 +104,9 @@ const SkillsSection = () => {
         </div>
 
         <div className="w-full max-w-xs md:w-2/5">
-          <h1 className="mb-6 text-center text-lg font-semibold dark:text-light ">Backend Developer</h1>
+          <h1 className="mb-6 text-center text-lg font-semibold dark:text-light ">
+            Backend Developer
+          </h1>
           <div className="flex w-full ">
             <div className="flex w-1/2 flex-col items-start justify-start gap-y-6">
               {backEnd.map((item, index) => {
@@ -95,8 +115,12 @@ const SkillsSection = () => {
                     <div className="flex items-start justify-start" key={index}>
                       <IoCheckmarkCircleOutline className="mx-[6px] text-base text-primary" />
                       <div className="flex h-full flex-col justify-items-start">
-                        <h1 className="text-base leading-4 dark:text-light">{item.name}</h1>
-                        <h1 className="mt-1 text-sm font-light text-gray-700 dark:text-gray-300">{item.level}</h1>
+                        <h1 className="text-base leading-4 dark:text-light">
+                          {item.name}
+                        </h1>
+                        <h1 className="mt-1 text-sm font-light text-gray-700 dark:text-gray-300">
+                          {item.level}
+                        </h1>
                       </div>
                     </div>
                   );
@@ -109,8 +133,12 @@ const SkillsSection = () => {
                     <div className="flex items-start justify-start" key={index}>
                       <IoCheckmarkCircleOutline className="mx-[6px] text-base text-primary" />
                       <div className="flex h-full flex-col justify-items-start">
-                        <h1 className="text-base leading-4 dark:text-light">{item.name}</h1>
-                        <h1 className="mt-1 text-sm font-light text-gray-700 dark:text-gray-300">{item.level}</h1>
+                        <h1 className="text-base leading-4 dark:text-light">
+                          {item.name}
+                        </h1>
+                        <h1 className="mt-1 text-sm font-light text-gray-700 dark:text-gray-300">
+                          {item.level}
+                        </h1>
                       </div>
                     </div>
                   );
