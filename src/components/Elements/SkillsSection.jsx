@@ -23,31 +23,39 @@ const frontEnd = [
         level: "Intermediate",
     },
     {
-        name: "TailwindCSS",
+        name: "Redux",
         level: "Intermediate",
     },
     {
+        name: "TailwindCSS",
+        level: "Advanced",
+    },
+    {
         name: "Git",
-        level: "Basic",
+        level: "Intermediate",
     },
 ];
 
 const backEnd = [
     {
         name: "NodeJS",
-        level: "Basic",
+        level: "Intermediate",
     },
     {
         name: "MySQL",
-        level: "Basic",
+        level: "Intermediate",
     },
     {
         name: "PostgreSQL",
-        level: "Basic",
+        level: "Intermediate",
+    },
+    {
+        name: "Supabase",
+        level: "Intermediate",
     },
     {
         name: "ExpressJs",
-        level: "Basic",
+        level: "Intermediate",
     },
     {
         name: "Java",
@@ -55,6 +63,10 @@ const backEnd = [
     },
     {
         name: "Spring Boot",
+        level: "Intermediate",
+    },
+    {
+        name: "Firebase",
         level: "Intermediate",
     },
 ];

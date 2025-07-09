@@ -2,22 +2,22 @@ import React from "react";
 
 const projects = [
     {
-        nama: "Reyna Movies",
-        desc: "An application that uses the OMDB API to provide film information.",
-        img: "/images/projects/project-1.png",
-        link: "https://reynamovie.vercel.app/",
+        nama: "Catfish System",
+        desc: "Application system than using for monitoring and control catfish.",
+        img: "/images/projects/project-5.png",
+        link: "https://catfishsystem.vercel.app/",
         platfrom: {
-            nama: "Web",
+            nama: "Web App",
             desc: "Platfrom Based",
         },
         stack: {
-            nama: "ReactJs",
+            nama: "ReactJs, IoT",
             desc: "Tech Stack",
         },
     },
     {
         nama: "Reyna Rent Car",
-        desc: "Application that simplifies booking car and content management system",
+        desc: "Application that simplifies booking car and content management system.",
         img: "/images/projects/project-4.png",
         link: "https://reyna-rentcar.vercel.app/",
         platfrom: {
@@ -31,7 +31,7 @@ const projects = [
     },
     {
         nama: "Tirta",
-        desc: "Website profile company with user-friendly interface",
+        desc: "Website profile company with user-friendly interface.",
         img: "/images/projects/project-3.png",
         link: "https://aldogerard.github.io/pemrogram-web-uts",
         platfrom: {
@@ -44,16 +44,29 @@ const projects = [
         },
     },
     {
-        nama: "Catfish System",
-        desc: "Application system than using for monitoring and control catfish",
-        img: "/images/projects/project-5.png",
-        link: "https://catfishsystem.vercel.app/",
+        nama: "Blog CMS",
+        desc: "CMS platform to easily manage company blogs and content.",
+        img: "/images/projects/project-6.png",
         platfrom: {
             nama: "Web App",
             desc: "Platfrom Based",
         },
         stack: {
-            nama: "ReactJs, IoT",
+            nama: "ReactJs, Express Js",
+            desc: "Tech Stack",
+        },
+    },
+    {
+        nama: "Reyna Movies",
+        desc: "An application that uses the OMDB API to provide film information.",
+        img: "/images/projects/project-1.png",
+        link: "https://reynamovie.vercel.app/",
+        platfrom: {
+            nama: "Web",
+            desc: "Platfrom Based",
+        },
+        stack: {
+            nama: "ReactJs",
             desc: "Tech Stack",
         },
     },
@@ -80,7 +93,9 @@ const ProjectSection = () => {
                 {projects.map((project, i) => (
                     <div
                         className="projects-card group"
-                        onClick={() => window.open(project.link)}
+                        onClick={() => {
+                            if (project.link) window.open(project.link);
+                        }}
                         key={i}
                     >
                         <img
