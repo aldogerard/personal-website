@@ -16,7 +16,7 @@ const IconSocialMedia = () => {
                 <a href="https://www.github.com/aldogerard" target="_blank">
                     <IoLogoGithub className="icon" />
                 </a>
-                <a href="https://www.linkedin.com/in/" target="_blank">
+                <a href="https://www.linkedin.com/in/reynaldogerard" target="_blank">
                     <IoLogoLinkedin className="icon" />
                 </a>
                 {/* <a href="https://wa.me/6281259488643" target="_blank">
